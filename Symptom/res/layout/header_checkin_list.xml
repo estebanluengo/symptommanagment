@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/header_horizontal_margin"
+    	android:paddingLeft="@dimen/header_horizontal_margin"
+    	android:paddingRight="@dimen/header_horizontal_margin"
+    	android:paddingTop="@dimen/header_horizontal_margin">
+
+        <TextView 
+            style="@style/label_header"
+            android:id="@+id/tvLabelPatientName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:text="@string/patientName" />
+
+        <TextView
+            style="@style/text_info_header"
+            android:id="@+id/tvPatientName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/patientName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <TextView
+            style="@style/label_head"
+            android:id="@+id/tvHeaderDateCheckingItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="40"
+            android:text="@string/date" />
+
+        <TextView
+            style="@style/label_head"
+            android:id="@+id/tvHeaderPainStopCheckingItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:text="@string/pain_stop"/>
+
+        <TextView
+            style="@style/label_head"
+            android:id="@+id/tvHeaderHowbadCheckingItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:text="@string/pain_throat"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@color/black" />
+
+</LinearLayout>

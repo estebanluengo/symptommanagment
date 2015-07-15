@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">20dp</dimen>
+    
+    <!-- Used in login activity -->
+    <dimen name="login_box_padding">20dp</dimen>
+    
+    <!-- Used in login, nextcheckin and checkin activity-->    
+    <dimen name="title_box_bottom_margin">15dp</dimen>
+    
+    <!-- Used in nextcheckin activity-->    
+    <dimen name="layout_top_margin">40dp</dimen>
+    
+    <!-- Used in checkin activity-->
+    <dimen name="back_button_top_margin">30dp</dimen>
+    <dimen name="button_top_margin">10dp</dimen>
+    <dimen name="button_top_margin_land">5dp</dimen>
+    
+    <!-- Used in checkin list activity and patient list activity-->
+    <dimen name="item_list_padding">5dp</dimen>
+    
+    <!-- Used in checkin list activity-->
+    <dimen name="header_horizontal_margin">10dp</dimen>
+    <dimen name="header_vertical_margin">10dp</dimen>
+    
+    <!-- Used in checkin data activity-->
+    <dimen name="field_top_margin">10dp</dimen>
+    <dimen name="field_label_right_margin">5dp</dimen>
+    
+    <dimen name="small">10dp</dimen>
+    
+    
+</resources>

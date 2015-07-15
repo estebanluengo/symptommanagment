@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="AutoCompleteTextViewSymptom" parent="android:Widget.Holo.Light.AutoCompleteTextView">
+      <item name="android:dropDownSelector">@drawable/symptom_list_selector_holo_light</item>
+	    <item name="android:background">@drawable/symptom_edit_text_holo_light</item>
+  </style>
+
+  <style name="ButtonSymptom" parent="android:Widget.Holo.Light.Button">
+	  <item name="android:background">@drawable/symptom_btn_default_holo_light</item>
+  </style>
+
+  <style name="ImageButtonSymptom" parent="android:Widget.Holo.Light.ImageButton">
+	  <item name="android:background">@drawable/symptom_btn_default_holo_light</item>
+  </style>
+
+  <style name="SpinnerSymptom" parent="android:Widget.Holo.Light.Spinner">
+      <item name="android:background">@drawable/symptom_spinner_background_holo_light</item>
+      <item name="android:dropDownSelector">@drawable/symptom_list_selector_holo_light</item>
+  </style>
+  
+  <style name="ActionBarSymptom" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+     <item name="android:background">@drawable/actionbar_background</item>
+  </style>
+
+</resources>

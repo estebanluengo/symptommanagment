@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity="center_horizontal"
+    android:layout_marginTop="@dimen/field_top_margin">
+    
+    <TextView style="@style/dialog_title"
+            android:id="@+id/tvTitleSearchPatient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:text="@string/label_title_search_Patient" />
+    
+	<TextView style="@style/label_header"
+	    	android:layout_marginTop="@dimen/field_top_margin"
+            android:id="@+id/tvLabelSearchPatient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:text="@string/label_search_Patient" />
+
+	<EditText
+	    android:layout_margin="@dimen/field_top_margin"
+	    android:id="@+id/etPatientSearch"
+	    android:inputType="text"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:ems="50" >
+
+	    <requestFocus />
+	</EditText>
+	
+</LinearLayout>

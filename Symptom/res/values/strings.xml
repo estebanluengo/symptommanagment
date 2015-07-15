@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Config labels -->
+    <string name="authority">org.coursera.symptomsmanagment.SymptomProvider</string>
+
+    <!-- General labels -->
+    <string name="app_name">Symptoms management</string>
+    <string name="login_again">You need to login again</string>
+    <string name="wait">Please wait</string>
+
+    <!-- Menu labels -->
+    <string name="action_settings">Settings</string>
+    <string name="medications">Patient medications</string>
+    <string name="monitor_patient">Monitor patient</string>
+    <string name="search_patient">Search a patient</string>
+    <string name="action_delete_medication">Delete medication</string>
+    <string name="action_activate_medication">Activate medication</string>
+    <string name="patient_list">Patients list</string>
+    <string name="patient_monitor_list">Patients monitor list</string>
+
+    <!-- Notification labels -->
+    <string name="noti_start_checkin">Please start a new check-in.</string>
+    <string name="noti_start_checkin_title">Check-in reminder.</string>
+    <string name="noti_error_checkin">There was an error sending the check-in. Try to complete it again and check your connectivity.</string>
+    <string name="noti_error_checkin_title">Error sending check-in to server.</string>
+    <string name="noti_monitor_patient_title">Alert!!. Patient with monitor needs.</string>
+    <string name="noti_monitor_patient">Please press to see the patient list.</string>
+    <string name="noti_error_download">Please login again in order to download new data.</string>
+    <string name="noti_error_download_title">Symptoms Management. Error login.</string>
+    
+
+    <!-- Login activity labels -->
+    <string name="title_activity_login">Sign in</string>
+    <string name="login_title">Symptoms management</string>
+    <string name="insert_login">Insert username</string>
+    <string name="insert_password">Insert pasword</string>
+    <string name="remember_me">Remember me</string>
+    <string name="login">Login</string>
+    <string name="user_unknown">Login was OK, but we do not know who you are in the system. Please call technical department</string>
+    <string name="login_failed">Login failed, check your Internet connection and credentials.</string>
+
+    <!-- Patient Next check-in activity labels -->
+    <string name="title_activity_next_checkin">Next check-in</string>
+    <string name="next_checkin">Next check-in</string>
+    <string name="start_checkin">Start now</string>
+
+    <!-- Patient Checkin data activity labels -->
+    <string name="title_activity_checkin">Check-in wizard</string>
+    <string name="error_find_medications">I am sorry but we can not find your medications. Try login again</string>
+    <string name="error_setting_camera">It was an error setting the camera. Please, try again.</string>
+    <string name="question_howbad">How bad is your mouth pain/sore throat?</string>
+    <string name="question_takemedication">Did you take your pain medication?</string>
+    <string name="question_pre_takemedication">Did you take your </string>
+    <string name="question_painstop">Does your pain stop you from eating/drinking?</string>
+    <string name="question_takephoto">Do you want to take some photo?</string>
+    <string name="option_icannoteat">I can not eat</string>
+    <string name="option_some">Some</string>
+    <string name="option_no">No</string>
+    <string name="option_yes">Yes</string>
+    <string name="option_wellcontrolled">Well controlled</string>
+    <string name="option_moderate">Moderate</string>
+    <string name="option_severe">Severe</string>    
+    <string name="back">Back</string>
+    <string name="thank_you">Thank you for participate.</string>
+    
+
+    <!-- Doctor's Patients list activity labels -->
+    <string name="title_activity_patient_list">Patients list</string>
+    <string name="no_data">No data</string>
+    <string name="error_get_patient_list">Error getting patient list from server</string>
+    <string name="no_patient_list">We can not find any patient. Try login again</string>
+    <string name="error_get_patient">Error getting patient from server</string>
+    <string name="patient_not_found_by_name">We can not find any patient with this name in the system</string>
+
+    <!-- Doctor's Monitor patients list activity labels -->
+    <string name="title_activity_monitor_patient_list">Monitor patients list</string>
+
+    <!-- Doctor's Search patient dialog labels -->
+    <string name="label_title_search_Patient">Search a patient</string>
+    <string name="label_search_Patient">Search by exact name:</string>
+
+    <!-- Doctor's Patient checkin list activity labels -->
+    <string name="title_activity_checkin_list">Patient checkin list</string>
+    <string name="patientName">Patient name:</string>
+    <string name="date">Check-in date</string>
+    <string name="pain_stop">Stop eating?</string>
+    <string name="pain_throat">Pain throat?</string>
+    <string name="no_data_row">Sorry, can not access to this data row</string>
+
+    <!-- Doctor's Patient checkin data activity labels -->
+    <string name="title_activity_checkin_data">Check-in data</string>
+    <string name="label_date">Check-in date:</string>
+    <string name="label_howbad">How bad is your mouth pain/sore throat?</string>
+    <string name="label_takemedication">Did you take your pain medication?</string>
+    <string name="label_date_medication">Date/Time:</string>
+    <string name="label_takeit">Take it?:</string>
+    <string name="label_painstop">Does your pain stop you from eating/drinking?</string>
+    <string name="label_medication_control">Medication taking control</string>
+    <string name="view_photo">View photo</string>
+    <string name="unknown">Unknown</string>
+    <string name="error_get_checkinmedication_list">Sorry, we can not recover check-in medication from the system</string>
+    <string name="no_photo">Patient did not send any photo this time</string>
+    <string name="loading_photo">Loading photo</string>
+
+    <!-- Doctor's Patient view patient photo activity labels -->
+    <string name="error_download_image">Error downloading the image. Try again.</string>
+    
+    <!-- Doctor's Patient medications activity labels -->
+    <string name="title_activity_medications">Patient medications</string>
+    <string name="new_medication">Medication:</string>
+    <string name="add">Add</string>
+    <string name="current">Current medications</string>
+    <string name="active">Active</string>
+    <string name="inactive">Inactive</string>
+    <string name="error_empty_patient_medication">Patient medication could not be empty</string>
+    <string name="error_updating_patient_medication">Patient medication could not be updated in the system</string>
+
+    <!-- Doctor's Patient monitor activity labels -->
+    <string name="title_activity_monitor">Monitor a patient</string>
+    <string name="view_graph_eat_pain">View stop eating evolution</string>
+    <string name="view_graph_mouth_pain">View mouth pain evolution</string>
+    <string name="graph_mouth_pain_title">Monitor mouth pain</string>
+    <string name="graph_eat_pain_title">Monitor stop eating</string>
+    <string name="four_days">4 days</string>
+    <string name="three_days">3 days</string>
+    <string name="two_days">2 days</string>
+    <string name="one_day">1 days</string>
+<!--     <string name="view_graph_mouth_pain">View mouth pain evolution</string> -->
+<!--     <string name="view_graph_mouth_pain">View mouth pain evolution</string> -->
+    <string name="graphviewserie_data_wait">Loading check-in data. Please wait a moment.</string>
+
+    <!-- Prefrences labels -->
+    <string name="title_activity_preference">User preferences</string>
+    <string name="show_reminder">Frequency of remainders per day</string>
+    <string name="show_reminder_desc">Select frequency of remainders per day</string>
+    <string name="first_hour">First hour to start reminder</string>
+    <string name="first_hour_desc">Insert firt hour to start the reminders</string>
+    <string name="last_hour">Last hour to finish reminder</string>
+    <string name="last_hour_desc">Insert latst hour to finish the reminders</string>
+    <string name="show_medications_frequency_update">Medications update frequency</string>
+    <string name="show_medications_frequency_update_desc">Medications update frequency</string>
+    <string name="show_checkin_frequency_update">Check-ins update frequency</string>
+    <string name="show_checkin_frequency_update_desc">Check-ins update frequency</string>
+    <string name="title_activity_show_photo">Patient photo</string>
+
+</resources>

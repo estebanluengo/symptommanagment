@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/header_horizontal_margin"
+        android:paddingLeft="@dimen/header_horizontal_margin"
+        android:paddingRight="@dimen/header_horizontal_margin"
+        android:paddingTop="@dimen/header_horizontal_margin" >
+
+        <TextView
+            android:id="@+id/tvLabelPatientName"
+            style="@style/label_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/patientName" />
+
+        <TextView
+            android:id="@+id/tvPatientName"
+            style="@style/text_info_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/patientName" />
+    </LinearLayout>
+
+    <!-- <View -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="2dp" -->
+    <!-- android:background="@color/symptom_color" /> -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/header_horizontal_margin"
+        android:paddingLeft="@dimen/header_horizontal_margin"
+        android:paddingRight="@dimen/header_horizontal_margin" >
+
+        <TextView
+            android:id="@+id/tvLabelNewMedication"
+            style="@style/label_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_medication" />
+
+        <EditText
+            android:id="@+id/etNewMedication"
+            style="@style/text_info_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="19"
+            android:inputType="text"
+            android:labelFor="@id/tvLabelNewMedication" >
+        </EditText>
+
+        <Button
+            android:id="@+id/btNewMedication"
+            style="@style/small_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/tvLabelCurrent"
+            style="@style/label_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/current" />
+    </LinearLayout>
+
+</LinearLayout>

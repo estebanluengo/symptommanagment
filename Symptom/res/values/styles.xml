@@ -1,0 +1,129 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        
+    </style>
+    
+    <style name="login_title">
+        <item name="android:paddingBottom">@dimen/title_box_bottom_margin</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/symptom_color</item>
+    </style>        
+    
+    <style name="login_layout_style">
+        <item name="android:padding">@dimen/login_box_padding</item>
+<!--         <item name="android:background">@color/gray</item> -->
+    </style>
+    
+    <style name="item_list">
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">@dimen/item_list_padding</item>
+    </style>
+    
+    <style name="item_list_internal">
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">@dimen/item_list_padding</item>
+        <item name="android:gravity">start</item>
+    </style>
+    
+    <style name="label_mini">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="label_normal">
+        <item name="android:textSize">15sp</item>
+    </style>
+    
+    <style name="label_normal_bold">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="label_big">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>    
+    
+    <style name="label_header">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingRight">@dimen/field_label_right_margin</item>     
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:textColor">@color/symptom_color</item>
+    </style>
+    
+    <style name="text_info_header">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>    
+    
+    <style name="label_head">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">@dimen/item_list_padding</item>
+        <item name="android:gravity">center</item>
+    </style>    
+    
+    <style name="question" parent="label_header">
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">@dimen/title_box_bottom_margin</item>
+        <item name="android:paddingTop">@dimen/title_box_bottom_margin</item>                       
+    </style>
+    
+	<style name="question_land" parent="label_header">
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">left</item>
+<!--         <item name="android:paddingBottom">@dimen/title_box_bottom_margin</item> -->
+<!--         <item name="android:paddingTop">@dimen/title_box_bottom_margin</item> -->                        
+    </style>    
+    
+    <style name="response">
+        <item name="android:textSize">15sp</item>                
+    </style>
+    
+    <style name="dialog_title">
+        <item name="android:textSize">15sp</item>         
+        <item name="android:padding">@dimen/field_label_right_margin</item>
+        <item name="android:background">@color/symptom_color</item>         
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+    <style name="small_button" parent="ButtonSymptom">
+        <item name="android:textSize">12sp</item>
+        <item name="android:minHeight">30dp</item>
+    </style>
+    
+    <style name="normal_button" parent="ButtonSymptom">
+        <item name="android:textSize">15sp</item>
+        <item name="android:minHeight">40dp</item>
+    </style>
+    
+    <style name="button_good" parent="ButtonSymptom">
+        <item name="android:background">@color/green</item>
+    </style>
+    
+    <style name="button_middle" parent="ButtonSymptom">
+        <item name="android:background">@color/orange</item>
+    </style>
+    
+    <style name="button_bad" parent="ButtonSymptom">
+        <item name="android:background">@color/red</item>
+    </style>
+    
+</resources>

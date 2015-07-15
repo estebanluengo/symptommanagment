@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_reminder_values">
+        <item>4x</item>
+        <item>6x</item>
+    </string-array>
+    <string-array name="settings_reminder_keys">
+        <item>4</item>
+        <item>6</item>
+    </string-array>
+</resources>

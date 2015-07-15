@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="@+id/pref_screen" >
+    
+    <ListPreference 
+        	android:key="intervalDownloadOptions"
+        	android:title="@string/show_checkin_frequency_update"      
+        	android:summary="@string/show_checkin_frequency_update_desc"  	
+        	android:entries="@array/settings_interval_download_values"
+        	android:entryValues="@array/settings_interval_download_keys"
+        	android:defaultValue="60"/>
+</PreferenceScreen>
